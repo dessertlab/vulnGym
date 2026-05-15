@@ -1,0 +1,33 @@
+[
+    {
+        "name": "APT41",
+        "mitre_url": "https://attack.mitre.org/groups/G0096/",
+        "products": [
+            "microsoft:windows",
+            "debian:debian",
+            "redhat:redhat",
+            "microsoft:powershell",
+            "oracle:oracle",
+            "microsoft:exchange_server"
+        ],
+        "phishing": true,
+        "goal": "data_exfiltration"
+    },
+    {
+        "name": "APT28",
+        "mitre_url": "https://attack.mitre.org/groups/G0007/",
+        "products": [
+            "adobe:adobe",
+            "bitdefender:bitdefender",
+            "microsoft:defender",
+            "microsoft:edge",
+            "microsoft:office",
+            "microsoft:powershell",
+            "microsoft:remote",
+            "oracle:oracle",
+            "microsoft:windows"
+        ],
+        "phishing": true,
+        "goal": "db_denial_of_service"
+    }
+]

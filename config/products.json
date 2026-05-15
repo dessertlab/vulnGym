@@ -1,0 +1,140 @@
+{
+  "1password:1password": {
+    "zones": [],
+    "phishing": false
+  },
+  "adobe:adobe": {
+    "zones": [
+      "external"
+    ],
+    "phishing": true
+  },
+  "apache:apache": {
+    "zones": [
+      "dmz",
+      "internal"
+    ],
+    "phishing": false
+  },
+  "auth0:auth0": {
+    "zones": [],
+    "phishing": false
+  },
+  "avast:avast": {
+    "zones": [],
+    "phishing": false
+  },
+  "bitdefender:bitdefender": {
+    "zones": [],
+    "phishing": false
+  },
+  "debian:debian": {
+    "zones": [
+      "internal"
+    ],
+    "phishing": false
+  },
+  "mariadb:mariadb": {
+    "zones": [
+      "database"
+    ],
+    "phishing": false
+  },
+  "microsoft:active_directory": {
+    "zones": [
+      "internal"
+    ],
+    "phishing": false
+  },
+  "microsoft:defender": {
+    "zones": [],
+    "phishing": false
+  },
+  "microsoft:edge": {
+    "zones": [
+      "external"
+    ],
+    "phishing": true
+  },
+  "microsoft:exchange_server": {
+    "zones": [
+      "dmz"
+    ],
+    "phishing": false
+  },
+  "microsoft:office": {
+    "zones": [
+      "external"
+    ],
+    "phishing": true
+  },
+  "microsoft:powershell": {
+    "zones": [
+      "external"
+    ],
+    "phishing": true
+  },
+  "microsoft:remote": {
+    "zones": [
+      "dmz"
+    ],
+    "phishing": false
+  },
+  "microsoft:sql": {
+    "zones": [
+      "database"
+    ],
+    "phishing": false
+  },
+  "microsoft:windows": {
+    "zones": [
+      "external",
+      "internal"
+    ],
+    "phishing": true
+  },
+  "microsoft:windows_server": {
+    "zones": [
+      "internal"
+    ],
+    "phishing": false
+  },
+  "mongodb:mongodb": {
+    "zones": [
+      "database"
+    ],
+    "phishing": false
+  },
+  "oracle:oracle": {
+    "zones": [
+      "database"
+    ],
+    "phishing": false
+  },
+  "postgresql:postgresql": {
+    "zones": [
+      "database"
+    ],
+    "phishing": false
+  },
+  "redhat:redhat": {
+    "zones": [
+      "dmz",
+      "internal"
+    ],
+    "phishing": false
+  },
+  "sqlite:sqlite": {
+    "zones": [
+      "database"
+    ],
+    "phishing": false
+  },
+  "vmware:vmware": {
+    "zones": [
+      "dmz",
+      "internal"
+    ],
+    "phishing": false
+  }
+}

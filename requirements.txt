@@ -1,0 +1,9 @@
+gymnasium
+numpy
+matplotlib
+networkx
+scipy
+tqdm
+torch
+pandas
+openpyxl
