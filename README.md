@@ -82,7 +82,7 @@ Run `code/main.py` to execute all experiments defined in `experimental_plan.xlsx
 python code/main.py
 ```
 
-For each experiment it:
+For each experiment, the script:
 
 1. Loads the configuration from `experimental_plan.xlsx` by `Experiment_ID`.
 2. Loads the vulnerability dataset (shared across experiments with the same APT and topology).
@@ -90,6 +90,31 @@ For each experiment it:
 4. Runs the evaluation scenarios (attacker-only and attacker vs. each defender policy).
 5. Generates and saves all plots to `results/<experiment_dir>/`.
 6. Writes a summary of all experiments to `results/results.md`.
+
+The execution takes several minutes. The script will show a progress bar for each scenario.
+
+```
+Trained model found for APT28 on layered. Skipping training.
+Testing experiment 1.
+
+Running Scenario 1: DQN Attacker - No Defender.
+100%|█████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.62it/s]
+Completed Scenario 1: DQN Attacker - No Defender with 93.0 goals achieved.
+
+
+Running Scenario 2: DQN Attacker - Policy Defender (Importance).
+100%|█████████████████████████████████████████████████████████████| 100/100 [00:22<00:00,  4.39it/s]
+Completed Scenario 2: DQN Attacker - Policy Defender (Importance) with 72.0 goals achieved.
+
+
+Running Scenario 3: DQN Attacker - Policy Defender (Severity).
+100%|█████████████████████████████████████████████████████████████| 100/100 [00:22<00:00,  4.46it/s]
+Completed Scenario 3: DQN Attacker - Policy Defender (Severity) with 88.0 goals achieved.
+
+...
+```
+
+At the end, results will be saved in the `results/` folder. See also the Results section.
 
 To visualize results interactively, open `code/experiment_viewer.ipynb`:
 
