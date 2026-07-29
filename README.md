@@ -290,3 +290,18 @@ results/
 - **`datasets/nvd/`** — NVD records with CVE IDs, CVSS scores, CWE classifications, affected products, and publication dates. Used to populate node vulnerabilities.
 - **`datasets/kev/`** — CISA KEV catalog. CVEs in this list grant the attacker a higher exploit success probability.
 - **`datasets/metasploit-nuclei/`** — CVEs covered by Metasploit modules or Nuclei templates. Combined with KEV to define the attacker's effective exploit arsenal.
+
+---
+
+## Citation
+
+If you use VulnGym in your research, please cite:
+
+```bibtex
+@article{vulngym,
+  title   = {{VulnGym: Evaluating Vulnerability Management Strategies against Advanced Persistent Threats}},
+  author  = {Della Penna, Sofia and Parracino, Lorenzo and Pianese, Luciano and Orbinato, Vittorio and Natella, Roberto},
+  year    = {2026},
+  journal = {arXiv preprint arXiv: 2607.24552}
+}
+```
